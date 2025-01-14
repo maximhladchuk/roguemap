@@ -21,17 +21,19 @@ function addLittleBirdLayer(map) {
                     html: `
                         <div style="
                             background-color: #B0B0B0; /* Grey background */
-                            border-radius: 50%;
+                            border-radius: 40px 40px 0px 40px;
                             width: 30px;
                             height: 30px;
                             display: flex;
                             align-items: center;
                             justify-content: center;
+                            transform: rotate(45deg); /* Повертаємо для вигляду маркера */
                         ">
-                            <i class="fas fa-helicopter" style="color: black; font-size: 16px;"></i>
+                            <i class="fas fa-helicopter" style="color: black; font-size: 16px;
+                            transform: rotate(-45deg); /* Виправляємо ротацію іконки */"></i>
                         </div>
                     `,
-                    iconSize: [40, 40], // Icon size
+                    iconSize: [30, 30], // Icon size
                     iconAnchor: [20, 40], // Anchor point
                     popupAnchor: [0, -40] // Popup opening point
                 }),

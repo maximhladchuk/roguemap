@@ -76,8 +76,7 @@ var littleBird = {
             "properties": {
                 "id": "6",
                 "name": "Little Bird 6",
-                "image_id": "https://ibb.co/vZyzVnQ",
-                "description": "https://ibb.co/vZyzVnQ"
+                "image_id": "lb6",
             },
             "geometry": {
                 "type": "Point",
@@ -92,8 +91,7 @@ var littleBird = {
             "properties": {
                 "id": "7",
                 "name": "Little Bird 7",
-                "image_id": "https://ibb.co/71BfgtH",
-                "description": "https://ibb.co/71BfgtH"
+                "image_id": "lb7",
             },
             "geometry": {
                 "type": "Point",
@@ -108,8 +106,7 @@ var littleBird = {
             "properties": {
                 "id": "8",
                 "name": "Little Bird 8",
-                "image_id": "https://ibb.co/0GGc0md",
-                "description": "https://ibb.co/0GGc0md"
+                "image_id": "lb8",
             },
             "geometry": {
                 "type": "Point",
@@ -124,8 +121,7 @@ var littleBird = {
             "properties": {
                 "id": "9",
                 "name": "Little Bird 9",
-                "image_id": "https://ibb.co/t855gBY",
-                "description": "https://ibb.co/t855gBY"
+                "image_id": "lb9",
             },
             "geometry": {
                 "type": "Point",

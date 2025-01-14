@@ -21,17 +21,19 @@ function addBoatsLayer(map) {
                     html: `
                         <div style="
                             background-color: #ADD8E6; /* Light blue background */
-                            border-radius: 50%;
+                            border-radius: 40px 40px 0px 40px;
                             width: 30px;
                             height: 30px;
                             display: flex;
                             align-items: center;
                             justify-content: center;
+                            transform: rotate(45deg); /* Повертаємо для вигляду маркера */                       
                         ">
-                            <i class="fas fa-ship" style="color: #00008B; font-size: 16px;"></i> <!-- Dark blue ship icon -->
+                            <i class="fas fa-ship" style="color: #00008B; font-size: 16px; 
+                                transform: rotate(-45deg); /* Виправляємо ротацію іконки */"></i> <!-- Dark blue ship icon -->
                         </div>
                     `,
-                    iconSize: [40, 40], // Icon size
+                    iconSize: [30, 30], // Icon size
                     iconAnchor: [20, 40], // Anchor point
                     popupAnchor: [0, -40] // Popup opening point
                 }),

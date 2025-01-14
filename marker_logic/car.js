@@ -1,8 +1,8 @@
-function addExfillsLayer(map) {
-    // Створюємо новий шар із ідентифікатором 'exfills'
-    let layer = map.addInteractiveLayer('exfills', exfills, {
+function addCarLayer(map) {
+    // Створюємо новий шар із ідентифікатором 'car'
+    let layer = map.addInteractiveLayer('car', car, {
         // Ім'я, яке відображається в бічній панелі
-        name: 'Exfills',
+        name: 'Cars',
 
         // Вкладка в бічній панелі зі списком ID кожної мітки
         create_checkbox: true,
@@ -17,20 +17,24 @@ function addExfillsLayer(map) {
         pointToLayer: function (feature, latlng) {
             return L.marker(latlng, {
                 icon: L.divIcon({
-                    className: 'custom-exfills-icon', // Клас для стилізації іконки
+                    className: 'custom-car-icon', // Клас для стилізації іконки
                     html: `
                         <div style="
-                            background-color: #99ff99; /* Салатовий фон */
-                            border-radius: 40px 40px 0px 40px;
+                            position: relative;
+                            background-color: #FFCC99; /* Світло-оранжевий фон */
                             width: 30px;
                             height: 30px;
+                            border-radius: 40px 40px 0px 40px;
+                            transform: rotate(45deg); /* Повертаємо для вигляду маркера */
                             display: flex;
                             align-items: center;
                             justify-content: center;
-                            transform: rotate(45deg); /* Повертаємо для вигляду маркера */
                         ">
-                            <i class="fas fa-helicopter" style="color: green; font-size: 15px;
-                                transform: rotate(-45deg); /* Виправляємо ротацію іконки */"></i>
+                            <i class="fas fa-car" style="
+                                color: #FF6600; 
+                                font-size: 16px; 
+                                transform: rotate(-45deg); /* Виправляємо ротацію іконки */
+                            "></i>
                         </div>
                     `,
                     iconSize: [30, 30], // Розмір іконки

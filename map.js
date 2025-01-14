@@ -44,18 +44,18 @@ interactive_map.addTileLayer('Ingame map', {
 // }, 'overview_tiles/{z}/{x}/{y}.png');
 
 // Step 3:
-addCollectibles(interactive_map);
 addInformation(interactive_map);
 addExfillsLayer(interactive_map);
 addBoatsLayer(interactive_map);
 addLittleBirdLayer(interactive_map);
 addHueyLayer(interactive_map);
+addCarLayer(interactive_map);
+addK17Layer(interactive_map);
 
 
 // Step 4:
 // Finalize the map after adding all layers.
 interactive_map.finalize();
-
 // Step 5:
 // Open `index.html` to view the map.
 // You can now add additional layers by clicking the edit button in the lower left
