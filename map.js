@@ -51,7 +51,7 @@ addLittleBirdLayer(interactive_map);
 addHueyLayer(interactive_map);
 addCarLayer(interactive_map);
 addK17Layer(interactive_map);
-
+addInfillSpawnPoints(interactive_map);
 
 // Step 4:
 // Finalize the map after adding all layers.
