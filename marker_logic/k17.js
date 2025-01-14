@@ -20,6 +20,7 @@ function addK17Layer(map) {
                             display: flex;
                             align-items: center;
                             justify-content: center;
+                            border: 2px solid #4B0082; /* Dark purple */
                         ">
                             <i class="fas fa-truck-pickup" style="
                                 color: #4B0082; /* Dark purple */

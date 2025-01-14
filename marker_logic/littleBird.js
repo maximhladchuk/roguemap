@@ -28,6 +28,7 @@ function addLittleBirdLayer(map) {
                             align-items: center;
                             justify-content: center;
                             transform: rotate(45deg); /* Повертаємо для вигляду маркера */
+                            border: 2px solid black;
                         ">
                             <i class="fas fa-helicopter" style="color: black; font-size: 16px;
                             transform: rotate(-45deg); /* Виправляємо ротацію іконки */"></i>

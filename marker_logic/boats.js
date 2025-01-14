@@ -27,7 +27,8 @@ function addBoatsLayer(map) {
                             display: flex;
                             align-items: center;
                             justify-content: center;
-                            transform: rotate(45deg); /* Повертаємо для вигляду маркера */                       
+                            transform: rotate(45deg); /* Повертаємо для вигляду маркера */
+                            border: 2px solid #00008B; /* Dark blue */                       
                         ">
                             <i class="fas fa-ship" style="color: #00008B; font-size: 16px; 
                                 transform: rotate(-45deg); /* Виправляємо ротацію іконки */"></i> <!-- Dark blue ship icon -->

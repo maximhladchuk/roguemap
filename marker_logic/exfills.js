@@ -28,6 +28,7 @@ function addExfillsLayer(map) {
                             align-items: center;
                             justify-content: center;
                             transform: rotate(45deg); /* Повертаємо для вигляду маркера */
+                            border: 2px solid #006600; /* Темно-зелений */
                         ">
                             <i class="fas fa-helicopter" style="color: green; font-size: 15px;
                                 transform: rotate(-45deg); /* Виправляємо ротацію іконки */"></i>

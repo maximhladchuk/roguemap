@@ -28,6 +28,7 @@ function addHueyLayer(map) {
                             align-items: center;
                             justify-content: center;
                             transform: rotate(45deg); /* Повертаємо для вигляду маркера */
+                            border: 2px solid #8B4513; /* Saddle brown */
                         ">
                             <i class="fas fa-helicopter" style="color: #8B4513; font-size: 16px;
                                 transform: rotate(-45deg); /* Виправляємо ротацію іконки */"></i>

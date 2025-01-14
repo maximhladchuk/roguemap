@@ -29,6 +29,7 @@ function addCarLayer(map) {
                             display: flex;
                             align-items: center;
                             justify-content: center;
+                            border: 2px solid #FF6600; /* Оранжевий */
                         ">
                             <i class="fas fa-car" style="
                                 color: #FF6600; 
