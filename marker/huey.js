@@ -184,5 +184,19 @@ var huey = {
                 ]
             }
         },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "14",
+                "name": "Huey 14"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.96875,
+                    -196.015625
+                ]
+            }
+        },
     ]
 };
