@@ -1,5 +1,4 @@
 function addK17Layer(map) {
-    // Add a new layer for K17 markers
     let layer = map.addInteractiveLayer('k17', k17, {
         name: 'K17',
         create_checkbox: true,
@@ -37,6 +36,4 @@ function addK17Layer(map) {
             });
         }
     });
-
-    // Optionally, add additional GeoJSON data if needed
 }
