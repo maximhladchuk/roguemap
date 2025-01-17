@@ -620,20 +620,6 @@ var car = {
         {
             "type": "Feature",
             "properties": {
-                "id": "47",
-                "name": "Car 47"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    106.289063,
-                    -139.515625
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "id": "48",
                 "name": "Car 48"
             },
