@@ -5,198 +5,122 @@ var huey = {
             "type": "Feature",
             "properties": {
                 "id": "1",
-                "name": "Huey 1",
-                "image_id": "h1",
+                "name": "Little Bird 1"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    118.703125,
-                    -144.875
-                ]
+                "coordinates": [51.03125, -169.75]
             }
         },
         {
             "type": "Feature",
             "properties": {
                 "id": "2",
-                "name": "Huey 2"
+                "name": "Little Bird 2"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    137.140625,
-                    -159.875
-                ]
+                "coordinates": [95.53125, -148.898437]
             }
         },
         {
             "type": "Feature",
             "properties": {
                 "id": "3",
-                "name": "Huey 3"
+                "name": "Little Bird 3"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    155.117188,
-                    -180.835937
-                ]
+                "coordinates": [90.96875, -63.953125]
             }
         },
         {
             "type": "Feature",
             "properties": {
                 "id": "4",
-                "name": "Huey 4"
+                "name": "Little Bird 4"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    162.679688,
-                    -197.773437
-                ]
+                "coordinates": [97.84375, -44.578125]
             }
         },
         {
             "type": "Feature",
             "properties": {
                 "id": "5",
-                "name": "Huey 5"
+                "name": "Little Bird 5"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    90.34375,
-                    -47.59375
-                ]
+                "coordinates": [129.71875, -99.046875]
             }
         },
         {
             "type": "Feature",
             "properties": {
                 "id": "6",
-                "name": "Huey 6"
+                "name": "Little Bird 6"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    33.1875,
-                    -196.59375
-                ]
+                "coordinates": [121.597656, -132.210937]
             }
         },
         {
             "type": "Feature",
             "properties": {
                 "id": "7",
-                "name": "Huey 7"
+                "name": "Little Bird 7"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    88.625,
-                    -183.53125
-                ]
+                "coordinates": [144.90625, -174.734375]
             }
         },
         {
             "type": "Feature",
             "properties": {
                 "id": "8",
-                "name": "Huey 8"
+                "name": "Little Bird 8"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    31.140625,
-                    -205.375
-                ]
+                "coordinates": [139.289063, -160.53125]
             }
         },
         {
             "type": "Feature",
             "properties": {
                 "id": "9",
-                "name": "Huey 9"
+                "name": "Little Bird 9"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    77.515625,
-                    -59.015625
-                ]
+                "coordinates": [91.625, -165.1875]
             }
         },
         {
             "type": "Feature",
             "properties": {
                 "id": "10",
-                "name": "Huey 10"
+                "name": "Little Bird 10"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    95.234375,
-                    -58.109375
-                ]
+                "coordinates": [35.46875, -140.28125]
             }
         },
         {
             "type": "Feature",
             "properties": {
                 "id": "11",
-                "name": "Huey 11"
+                "name": "Little Bird 11"
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    91.640625,
-                    -69.609375
-                ]
+                "coordinates": [122.0625, -153.765625]
             }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "12",
-                "name": "Huey 12"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    83.476563,
-                    -68.523437
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "13",
-                "name": "Huey 13"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    83.304688,
-                    -57.992187
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "14",
-                "name": "Huey 14"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    19.96875,
-                    -196.015625
-                ]
-            }
-        },
+        }
     ]
 };
