@@ -27,6 +27,5 @@ addHueyLayer(interactive_map);
 addCarLayer(interactive_map);
 addK17Layer(interactive_map);
 addInfillSpawnPoints(interactive_map);
-addConnections(interactive_map);
 
 interactive_map.finalize();
